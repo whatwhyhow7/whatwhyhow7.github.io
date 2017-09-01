@@ -1,74 +1,90 @@
-# Particle Jekyll Theme
+~~~
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+~~~
 
-![](./particle.jpg)
+# Hydejack
+Hydejack is a cutting-edge Jekyll theme that combines the best of static sites and modern web apps.
+It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
+page-load speed or SEO.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+> Your presence on the web — A [blog], a [portfolio] and a [resume].
 
-The Theme features:
+It aims to be the complete package for professionals on the web.
+It features a blog suitable for both prose and technical documentation,
+a showcase for projects and a resume that fits with the rest of the design.
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+## [Demo](https://qwtel.com/hydejack/)
+It's best to just [see it in action](https://qwtel.com/hydejack/).
 
-## Basic Setup
+## Features
+Both the PRO *and* free version includes all of the features listed below:
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
+* Full in-app page loading — no Flash of White, no Flash of Unstyled Content[^1]
+* Advanced animations, inspired by Material Design
+* A customizable sidebar that turns into a touch-enabled app drawer on mobile
+* Near-perfect [Google PageSpeed Score][gpss][^2]
+* Even higher *perceived speed* thanks to pre-fetching and latency-hiding
+* Support for categories and tags — even when hosting on GitHub Pages
+* Built-in collection of social media icons
+* Author section below each article and multiple authors
+* Simple and semantic HTML — can be viewed even with text-based browsers
+* Progressive enhancement — sacrifice features, not content
+* Google Analytics and Google Fonts support
+* Blog layout with pagination
+* Syntax highlighting
+* Math formulas via LaTeX
+* Disqus comments
+* RSS feed
+* Print layout
 
-## Site and User Settings
+## [Documentation][docs]
+Hydejack is documented extensively.
+You can read it [on this site][docs], in the [repository's wiki][wiki], or [download the PDF][download].
 
-You have to fill some informations on `_config.yml` to customize your site.
+## Download
+There are two versions of Hydejack: The Free Version includes basic blogging functionality,
+as did previous versions of the theme.
+The new PRO Version includes additional features for professionals:
+A [portfolio], a [resume] layout and a [welcome] page to feature your favorite projects and posts.
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+This table details what is and isn't included in each respective version.
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+| Version                          | Free               | PRO                |
+|:---------------------------------|:------------------:|:------------------:|
+| Blog                             | &#x2714;           | &#x2714;           |
+| Features (see below)             | &#x2714;           | &#x2714;           |
+| [Portfolio] Layout               |                    | &#x2714;           |
+| [Resume] Layout                  |                    | &#x2714;           |
+| [Welcome] Layout                 |                    | &#x2714;           |
+| License                          | [MIT][license]     | [PRO]              |
+| Price                            | Free               | $34                |
+| | [**Download on GitHub**][download]<br/> – or – <br/>[**Use the RubyGem**][gem] | [**Buy Now – $34**][buy] [^3] |
 
-**Don't forget to change your url before you deploy your site!**
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+[^1]: Applies after the initial page load.  
+[^2]: Actual page load speed depends on your hosting provider as well as discipline regarding resolution of images and
+usage of 3rd party plugins.  
+[^3]: Transactions secured by [Stripe](https://stripe.com). Downloads handled by [Simple Goods](https://simplegoods.co/).  
 
-## Running the blog in local
+[blog]: https://qwtel.com/hydejack/blog/
+[portfolio]: https://qwtel.com/hydejack/projects/
+[resume]: https://qwtel.com/hydejack/resume/
+[welcome]: https://qwtel.com/hydejack/
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+[license]: LICENSE.md
+[pro]: licenses/PRO-license.md
+[docs]: docs/6.6.1/index.md
 
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install`
-- Run `gulp`
-
-## Questions
-
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
-
-## Credits
-
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+[download]: https://github.com/qwtel/hydejack/releases
+[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
+[buy]: https://app.simplegoods.co/i/AQTTVBOE
+[wiki]: https://github.com/qwtel/hydejack/wiki
+[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fqwtel.com%2Fhydejack%2F

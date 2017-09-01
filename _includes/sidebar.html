@@ -1,21 +1,23 @@
-<div id="sidebar">
-  <header>
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
-        {{ site.title }}
-      </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
-  </header>
-  {% include sidebar-nav-links.html %}
+<div id="_yDrawer">
+  <div id="_sidebar" class="sidebar">
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <header class="sidebar-sticky" role="banner">
+      <div class="sidebar-about">
+        <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {{ site.description | truncatewords:50 | markdownify }}
+      </div>
 
-  {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-  {% endif %}
+      <nav class="sidebar-nav heading" role="navigation">
+        {% include nav.html %}
+      </nav>
 
-  {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+      {% assign author = site.data.authors.first[1] | default:site.author %}
+
+      {% if author.social or site.github_username or site.twitter_username %}
+        <div class="sidebar-social">
+          {% include social.html social=author.social %}
+        </div>
+      {% endif %}
+    </header>
+  </div>
 </div>
