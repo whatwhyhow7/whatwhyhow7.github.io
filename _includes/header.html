@@ -2,7 +2,8 @@
   <div class="content">
       <h1>
         <span class="site-title">{{site.username}}</span>
-        <span class="site-description">{{site.user_title}}</span>
+        <span class="site-description" style="margin-top: 20px">{{site.nickname}}</span>
+        <span class="site-description" style="margin-top: 20px">{{site.user_title}}</span>
       </h1>
       <div class="icons-header">
           <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
@@ -12,8 +13,10 @@
           <a aria-label="My Google Plus" target="_blank" href="https://plus.google.com/{{site.gplus_username}}/posts"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
           -->
       </div>
-      <a class="link" href="#about" data-scroll>About Me</a>
-      <a class="link" href="#catalog" data-scroll>About My World</a>
+      <h1 style="margin-top: 20px">
+          <span class="site-description"><a class="link" href="#about" data-scroll>About Me</a></span>
+          <span class="site-description"><a class="link" href="#catalog" data-scroll>About My World</a></span>
+      </h1>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
