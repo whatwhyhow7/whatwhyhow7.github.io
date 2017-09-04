@@ -6,7 +6,7 @@
 
 - [Blog](https://whatwhyhow7.github.io/blog)
 - [Photo](https://whatwhyhow7.github.io/photo)
-- [Resume](https://whatwhyhow7.github.io/cv)
+- [Resume](https://whatwhyhow7.github.io/resume)
 
 ## 申明和感谢：
 
