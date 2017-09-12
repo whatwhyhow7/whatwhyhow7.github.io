@@ -1,7 +1,7 @@
 # Site settings
 title: Hower World
 description: TALK IS CHEAP, SHOW YOU WHO I AM
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: https://whatwhyhow7.github.io
 
 # User settings
 username: whatwhyhow7
