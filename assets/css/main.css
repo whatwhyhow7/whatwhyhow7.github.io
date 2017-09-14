@@ -195,10 +195,17 @@ body {
     margin: 20px auto
 }
 
+@media (min-width: 768px){
+    .six.columns {
+        width: 48%;
+        height: 260px;
+    }
+}
+
 .user-projects img {
     width: 100%;
-    height: 225px;
-    border-radius: 5px
+    height: 100%;
+    border-radius: 7px
 }
 
 .user-projects h5, body {
@@ -222,8 +229,9 @@ body {
 
 .project-link {
     display: block;
-    width: 100px;
-    margin: 10px 0;
+    width:40%;
+    font-size:1.3em;
+    margin: 20px 0 0 0;
     padding: 5px;
     color: #1a222c;
     background-color: transparent;
