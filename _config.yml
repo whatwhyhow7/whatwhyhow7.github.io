@@ -8,8 +8,4 @@ nickname: 沃特 · 歪 · 豪 · 塞翁
 user_title: Software Developer
 email: wangwenhao.rar@gmail.com
 
-# Google-analytics
-google-analytics:
-  id: ""
-
 exclude: ['package.json', 'src' , 'node_modules']
