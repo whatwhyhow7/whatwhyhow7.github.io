@@ -4,7 +4,7 @@
 
 ## 主要内容
 
-主页中主要包含了技术博客、摄影作品以及个人简历这三部分内容：
+主页中包含了技术博客、摄影作品以及个人简历三部分内容...的入口，其他就没啥了...
 
 - [Blog](https://whatwhyhow7.github.io/blog)
 - [Photo](https://whatwhyhow7.github.io/photo)
