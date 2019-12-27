@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hower World</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
   <body>
-      {% include header.html %}
-      <section id="about">
-          <br/>
-          {% include about.html %}
-      </section>
-      <section id="catalog">
-          <br/>
-          {% include catalog.html %}
-      </section>
-      {{ content }}
-      {% include footer.html %}
+    <main id="panel">
+      <div class='content-wrap'>
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="xs-12">
+        <div>
+            <strong class="big">{{site.title}}</strong>
+            <p>A minimal theme Jekyll theme with all the basics you need. Designed by <a>Nina</a>  , and free on <a>Github</a></p>
+        </div>
+    </footer>
   </body>
+</html>
