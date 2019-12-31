@@ -4,14 +4,22 @@
 
 ## 主要内容
 
-主页中包含了技术博客、摄影作品以及个人简历三部分内容...的入口，其他就没啥了...
+主页中包含了技术博客、个人简历、私房菜谱、摄影作品、Vlog 等 5 部分内容的入口：
 
 - [Blog](https://whatwhyhow7.github.io/blog)
-- [Photo](https://whatwhyhow7.github.io/photo)
 - [Resume](https://whatwhyhow7.github.io/resume)
+- [Cook](https://whatwhyhow7.github.io/cook)
+- [Photo](https://whatwhyhow7.github.io/photo)
+- [Video](https://whatwhyhow7.github.io/video)
 
 ## 申明和感谢
 
 使用 `jekyll` 搭建并借用了以下主题模板，特此申明并感谢：
 
-- [nrandecker / particle](https://github.com/nrandecker/particle)
+- [ninapetrop / Artist-Theme](https://github.com/ninapetrop/Artist-Theme)
+
+## 本地环境
+
+```shell
+jekyll serve -w
+```
