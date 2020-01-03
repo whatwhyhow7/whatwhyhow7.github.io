@@ -1,4 +1,4 @@
-# whatwhyhow7's homepage
+# whatwhyhow7's homepage 🏠
 
 这是 [@whatwhyhow7](https://whatwhyhow7.github.io/) 的个人主页。
 
@@ -6,11 +6,11 @@
 
 主页中包含了技术博客、个人简历、私房菜谱、摄影作品、Vlog 等 5 部分内容的入口：
 
-- [Blog](https://whatwhyhow7.github.io/blog)
-- [Resume](https://whatwhyhow7.github.io/resume)
-- [Cook](https://whatwhyhow7.github.io/cook)
-- [Photo](https://whatwhyhow7.github.io/photo)
-- [Video](https://whatwhyhow7.github.io/video)
+- [what?why?How? 🖊️](https://whatwhyhow7.github.io/blog)
+- [还不错的我，欢迎你了解一下 🔖](https://whatwhyhow7.github.io/resume)
+- [唯有你和美食不可辜负 🥑](https://whatwhyhow7.github.io/cook)
+- [我有诗和远方，希望还有你 📸](https://whatwhyhow7.github.io/photo)
+- [多想能陪你一场，把前半生的风景对你讲 📹](https://whatwhyhow7.github.io/video)
 
 ## 申明和感谢
 
@@ -18,7 +18,7 @@
 
 - [ninapetrop / Artist-Theme](https://github.com/ninapetrop/Artist-Theme)
 
-## 本地环境
+## 本地启动
 
 ```shell
 jekyll serve -w
